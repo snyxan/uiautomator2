@@ -3,7 +3,7 @@
 
 set -e
 
-APK_VERSION="2.3.3"
+APK_VERSION="v1.0.6"
 
 
 cd "$(dirname $0)"
@@ -17,7 +17,7 @@ cd "$(dirname $0)"
 function download(){
 	VERSION=$1
 	NAME=$2
-	URL="https://github.com/openatx/android-uiautomator-server/releases/download/$VERSION/$NAME"
+	URL="https://github.com/snyxan/android-uiautomator-server/releases/download/$VERSION/$NAME"
 	echo "$URL"
 	curl -L "$URL" --output "$NAME"
 }

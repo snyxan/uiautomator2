@@ -105,7 +105,6 @@ ChangeLog
 
 .vscode/
 report/
-*.apk
 *.exe
 node_modules/
 vendor/
@@ -113,4 +112,3 @@ vendor/
 docs/*.rst
 
 .DS_Store
-apk_version.txt
